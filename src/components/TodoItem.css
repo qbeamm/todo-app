@@ -1,0 +1,110 @@
+.cb-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 20px;
+    background-color: #FFFFFF;
+    height: 46px;
+    padding: 0 0 0 20px;
+    margin-bottom: 20px;
+}
+
+label {
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+.cb {
+    border: 2px solid #585292;
+    width: 18px;
+    height: 18px;
+    border-radius: 6px;
+    margin-right: 10px;
+}
+
+.cb-checked {
+    border: 2px solid #585292;
+    background-color: #585292;
+    width: 18px;
+    height: 18px;
+    border-radius: 6px;
+    margin-right: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.img-checked {
+    margin: 2px 2px 0 0;
+    width: 15px;
+    height: 15px;
+}
+
+input[type="checkbox"] {
+    accent-color: #585292;
+    width: 22px;
+    height: 22px;
+    margin-right: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    display: none;
+}
+
+input[type="text"] {
+    border: none;
+    outline: none;
+    font-size: 16px;
+    color: #000000;
+    background-color: #FFFFFF;
+    width: 100%;
+    
+}
+
+.checked {
+    color: #A9A9A9 !important;
+    text-decoration: line-through
+}
+
+.dots {
+    cursor: pointer;
+    position: relative;
+    margin-right: 20px;
+}
+
+.modal {
+    position: absolute;
+    width: 90px;
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    padding: 10px;
+    margin-top: 5px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.1);
+    right: 0;
+    z-index: 99;
+}
+
+.modal-item {
+    height: 28px;
+    display: flex;
+    align-items: center;
+    border-radius: 8px;
+    padding-left: 8px;
+}
+
+.save-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 64px;
+    height: 36px;
+    background-color: #585292;
+    border-radius: 999px;
+    color: #FFFFFF;
+    margin-right: 5px;
+    cursor: pointer;
+}
+
+
